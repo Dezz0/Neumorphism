@@ -1,0 +1,104 @@
+.itd_main {
+  max-height: 70%;
+}
+
+.config_block {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.soft-element {
+  max-width: 410px;
+  max-height: 410px;
+  background-color: aliceblue;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.code-block {
+  clear: both;
+  background-color: #1d1f21;
+  color: aliceblue;
+  padding: 15px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+}
+
+.code-block p {
+  display: block;
+  height: 10px;
+  font-size: 14px;
+  color: rgb(204, 214, 223);
+}
+
+.code-block p:last-child {
+  padding-left: 80px;
+}
+
+.code-block p span {
+  color: #22a0d6;
+}
+
+.color,
+.Select-boxShadow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Select-boxShadow {
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.color {
+  margin-bottom: 10px;
+}
+
+.color label,
+.color input,
+.color span,
+.Select-boxShadow label,
+.Select-boxShadow input:not(:last-child) {
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+.color input,
+.Select-boxShadow input {
+  border-radius: 5px;
+  border-color: #1d1f21;
+  outline: none;
+}
+
+.color label,
+.Select-boxShadow label {
+  margin-top: 10px;
+}
+
+.itd_color_ {
+  display: inline-block;
+}
+
+.shadow1,
+.shadow2 {
+  display: flex;
+  align-items: center;
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  .soft-element {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  .soft-element {
+    max-width: 180px;
+    max-height: 180px;
+  }
+}

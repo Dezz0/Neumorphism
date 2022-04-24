@@ -1,0 +1,25 @@
+footer {
+  padding-bottom: 20px;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.itd_inst_btn {
+  margin-right: 20px;
+}
+
+.itd_coffe_btn img {
+  width: 24px;
+  height: 27px;
+}
+
+.itd_right_text {
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+.itd_star_text {
+  font-size: 12px;
+}
