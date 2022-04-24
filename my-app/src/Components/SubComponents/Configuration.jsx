@@ -109,7 +109,7 @@ export default function Configuration({
         </div>
         <div className="shadow2">
           <label htmlFor="ColorInput2" className="form-label">
-            Change color bottom shadow:
+            Change color lower shadow:
           </label>
           <input
             type="color"
